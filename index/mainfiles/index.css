@@ -1,0 +1,47 @@
+:root
+{
+    --cor-principal-hover: #444a5b;
+    --cor-principal-link: #ffffff;
+    --cor-cabecalho:  #1d1f24;
+}
+
+
+
+
+body 
+{
+    background-color: var(--cor-principal-hover);
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.cabecalho 
+{
+    background-color: var(--cor-cabecalho);
+    height: 90px;
+}
+
+.navegacaoUsuario ul
+{
+   text-align: center;
+   
+}
+.navegacaoUsuario li
+{
+    margin: 30px 50px 0px 0px;
+    display: inline-block;
+}
+
+.navegacaoUsuario li :hover
+{
+    color: var(--cor-principal-hover);
+}
+
+.navegacaoUsuario a 
+{
+    color: var(--cor-principal-link);
+    font-size: 35px;
+}
