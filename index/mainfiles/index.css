@@ -21,7 +21,7 @@ a
 .cabecalho 
 {
     background-color: var(--cor-cabecalho);
-    height: 90px;
+    height: 120px;
 }
 
 .navegacaoUsuario ul
@@ -30,18 +30,42 @@ a
    
 }
 .navegacaoUsuario li
-{
-    margin: 30px 50px 0px 0px;
+{   
     display: inline-block;
+    position: relative;
+    margin: 40px 20px 0 20px;
 }
 
 .navegacaoUsuario li :hover
 {
     color: var(--cor-principal-hover);
+    transition: 0.8s;
+
 }
 
 .navegacaoUsuario a 
 {
     color: var(--cor-principal-link);
     font-size: 35px;
+}
+
+.comportamentoSlideShow
+{
+    text-align: center;
+}
+
+.comportamentoSlideShow :hover 
+{
+    transition: 0.95s;
+    width: 750px;
+    height: 400px;
+    box-shadow: 10px 10px 20px var(--cor-cabecalho);
+}
+
+.imagensJogos
+{
+    margin: 40px 0 0 0;
+    border-radius: 20px;
+    width: 650px;
+    height: 350px;
 }

@@ -1,4 +1,4 @@
-const user = "Carloman"
+const user = "Kauan"
 
 const userInScreen = document.getElementById("user");
 
