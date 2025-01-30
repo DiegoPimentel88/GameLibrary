@@ -33,7 +33,7 @@ a
 {   
     display: inline-block;
     position: relative;
-    margin: 40px 20px 0 20px;
+    margin: 45px 20px 0 20px;
 }
 
 .navegacaoUsuario li :hover
@@ -51,14 +51,23 @@ a
 
 .comportamentoSlideShow
 {
-    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: space-between;
+    grid-template-columns: auto auto;
 }
 
-.comportamentoSlideShow :hover 
+.conteudoSlideShow
 {
-    transition: 0.95s;
-    width: 750px;
-    height: 400px;
+    margin-left: 40px;
+}
+
+
+.conteudoSlideShow :hover 
+{
+    transition: 0.9s;
+    transition-timing-function: ease-out;
+    border: 1px solid var(--cor-principal-link);
     box-shadow: 10px 10px 20px var(--cor-cabecalho);
 }
 
