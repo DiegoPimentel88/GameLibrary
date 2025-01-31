@@ -1,0 +1,41 @@
+:root
+{
+    --cor-principal-hover: #444a5b;
+    --cor-principal-link: #ffffff;
+    --cor-cabecalho:  #1d1f24;
+}
+
+label
+{
+    color: var(--cor-principal-link);
+    margin: 80px 20px 10px 178px;
+}
+
+.cadastro 
+{
+    background-color: var(--cor-cabecalho);
+    width: 400px;
+    height: 200px;
+    margin: 100px auto auto auto;
+    padding: 60px;
+}
+
+.cadastro input 
+{
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.cadastro a 
+{   
+    color: var(--cor-principal-link);
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+#botao 
+{
+    display: block;
+    margin: 20px 0px 20px 177px;
+}
